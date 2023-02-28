@@ -1,7 +1,12 @@
-# include <stdio.h>
+#include "holberton.h"
 
-int main (void)
+/**
+  * reset_to_98 - a function that takes a pointer to an int as parameter
+   * and updates the value it points to to 98.
+   * @n: An integer input pointer
+    * Return: Nothing.
+     */
+void reset_to_98(int *n)
 {
-	printf("My initials are: %c%c%c and my age is %d.\n",'J','R','E',28);
-	return(0);
+		*n = 98;
 }
